@@ -67,6 +67,7 @@ svg{
 .header{
     background-color: white;
     padding: 10px 60px 10px 20px;
+    border-bottom: 5px solid rgb(201, 209, 220);
 }
 
 .upper{
@@ -94,8 +95,11 @@ svg{
 }
 
 .searchbar > input[type="text"]{
+    height: 20px;
     border-radius: 10px;
     flex-grow: 1;
+    background-color: rgb(226, 232, 240);
+    border: none;
 }
 
 .setting > svg{
@@ -113,6 +117,43 @@ svg{
     font-weight: bold;
 }
 
+.lower{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    align-items: center;
+}
+
+
+.information{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.information > img{
+    height: 65px;
+    width: 65px;
+    border-radius: calc(65px/2);
+}
+
+.detail > div:last-child{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.buttons > button{
+    background-color: rgb(25, 146, 212);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
 
 .content{
     background-color: rgba(226, 232, 240);

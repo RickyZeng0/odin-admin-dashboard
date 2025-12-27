@@ -17,24 +17,23 @@ body{
     grid-row: 1 / span 2;
     display: grid;
     grid-template-rows: 90px 4fr 5fr;
-    gap: 30px;
     color: white;
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 svg{
     fill: white;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
 }
 
 .branding{
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 10px;
-    font-size: 35px;
+    gap: 5px;
+    font-size: 30px;
     margin-left: -10px;
 }
 
@@ -45,6 +44,11 @@ svg{
 
 .branding > span{
     font-weight: bold;
+}
+
+.main-navigation {
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .main-navigation , .other-navigation{
@@ -63,6 +67,23 @@ svg{
 .header{
     background-color: white;
 }
+
+.searchbar{
+    display: flex;
+}
+
+.searchbar > input[type="image"] , .setting > svg {
+    height: 25px;
+    width: 25px;
+}
+.searchbar > input[type="text"]{
+    border-radius: 10px;
+}
+
+.setting > svg{
+    fill: black;
+}
+
 
 .content{
     background-color: rgba(226, 232, 240);

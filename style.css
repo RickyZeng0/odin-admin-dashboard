@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    font-family: "Roboto";
+}
+
 .container{
     display: grid;
     grid-template-columns: 2fr 8fr;
@@ -10,10 +15,33 @@
 .siderbar{
     background-color: rgb(25, 146, 212);
     grid-row: 1 / span 2;
+    display: grid;
+    grid-template-rows: 90px 4fr 5fr;
+    gap: 30px;
+    color: white;
+    padding-left: 20px;
 }
 
 svg{
-    fill: red;
+    fill: white;
+}
+
+.branding{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    font-size: 35px;
+    margin-left: -10px;
+}
+
+.branding > svg{
+    height: 70px;
+    width: 70px;
+}
+
+.branding > span{
+    font-weight: bold;
 }
 
 .header{
